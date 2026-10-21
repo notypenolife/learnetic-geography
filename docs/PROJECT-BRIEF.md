@@ -6,4 +6,4 @@ The first activity explores elevation and height difference through linked 3D te
 
 The user requested English throughout. All interface and teaching text, including canvas labels and PNG exports, is translated into natural English. The displayed creator name is Cici Yang_NZ, as requested. Original-source provenance is recorded in the README; social-platform handles are omitted. The Three.js MIT licence, terrain model, calculations and chapter-0 restriction remain intact.
 
-The lesson runs in the Vite/React host and can also be opened directly as a standalone HTML file. Student age and syllabus are unspecified. This project is independent of the CPU resource and has no hosted deployment.
+The lesson runs in the Vite/React host and can also be opened directly as a standalone HTML file. Student age and syllabus are unspecified. This project is independent of the CPU resource and is published through GitHub Pages at https://notypenolife.github.io/learnetic-geography/.

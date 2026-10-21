@@ -4,6 +4,10 @@ An independent interactive geography project exploring **elevation and height di
 
 ## Open the lesson
 
+[Open LEARNETIC Geography](https://notypenolife.github.io/learnetic-geography/)
+
+Source: [notypenolife/learnetic-geography](https://github.com/notypenolife/learnetic-geography).
+
 Double-click `public/terrain-altitude.html` to use the self-contained lesson offline in a browser with WebGL2 support. The graphics library and both brand fonts are embedded.
 
 For development, run `npm install` then `npm run dev` and open http://127.0.0.1:5174/. Run `npm run build` to produce `dist/`, or `npm run preview` to check the production build at http://127.0.0.1:5188/.
@@ -31,4 +35,4 @@ The visual identity follows the user's LEARNETIC brand sheet: Deep Night, Indigo
 - `sources/`: local working references, ignored by Git.
 - `docs/`: project and verification notes.
 
-No backend, account system or hosted deployment is configured. This project is separate from Inside the CPU.
+The website is published on GitHub Pages. Changes pushed to `main` are built and published automatically by the deployment workflow. No backend or account system is required. This project is separate from Inside the CPU.
