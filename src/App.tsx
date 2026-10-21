@@ -4,7 +4,7 @@ export default function App() {
       <iframe
         className="lesson-frame"
         src={`${import.meta.env.BASE_URL}terrain-altitude.html`}
-        title="海拔与相对高度 · 互动地形课件"
+        title="Elevation and height difference — interactive terrain lesson"
         allow="fullscreen"
         allowFullScreen
       />

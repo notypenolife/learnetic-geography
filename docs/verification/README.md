@@ -1,15 +1,15 @@
-# Integration verification
+# English resource verification
 
-Verified on 21 October 2026.
+Verified on 21 October 2026 after the English translation.
 
-- Imported HTML: 733,099 UTF-8 bytes. SHA-256: `093a8fc84ecb646881fcd1dda18ae795dc1af89e9771bb9f3f0b4ac81a1b7a8f`.
-- Both inline scripts parsed successfully; production TypeScript/Vite build passed.
-- Host and lesson HTTP responses: 200. Build copy matches source hash.
-- Desktop viewport 1440 × 900: terrain and contour map render; A moved from 152.5 m to 388.4 m and relative height updated from 589.8 m to 353.9 m.
-- B moved to the same map location as A: both displayed 388.4 m, relative height 0.0 m.
-- Top view, reset and explanation controls worked. Reset restored initial A/B elevations.
-- PNG export rendered a loaded 1920 × 800 image in its preview dialog.
-- Tablet-sized viewport 768 × 1024: map drawer opened/closed, its content remained scrollable (572 px viewport, 1189 px content). This is browser viewport QA, not a physical tablet touch test.
-- No browser console errors captured during these checks.
+- Translated 322 distinct script strings plus static HTML, accessibility labels, help and host metadata. Canvas and PNG export text are included.
+- Replaced Chinese social-media wordmark images with English text, retaining the creator as Xiao Xiao Xiao Bai and the Three.js MIT licence.
+- A scan of the lesson and host, including decoded Unicode escapes, found no remaining Chinese characters.
+- Both inline scripts passed syntax checks. The TypeScript/Vite production build passed.
+- Desktop viewport 1440 × 900: English terrain view, contour map, controls and labels rendered. Moving A changed its elevation from 152.5 m to 388.4 m and the height difference from 589.8 m to 353.9 m. Reset restored the original values.
+- The explanation, classroom tools, help and About dialog displayed English text. The help describes the available standalone lesson.
+- Export produced a loaded 1920 × 800 PNG with English title, map caption, elevation label and explanatory notes, checked visually in its preview dialog.
+- Phone viewport 390 × 844: English labels fit; the map drawer opened and closed. Body width and scroll width both measured 390 px. These are browser viewport checks, not physical-device touch tests.
+- No browser console errors were captured.
 
-The original source remains unchanged, including its thirteen-scene wording even though navigation is restricted to chapter 0. Fullscreen, physical touch gestures and direct file:// opening were not separately exercised.
+The chapter-0 restriction, terrain model and height calculations remain unchanged. Fullscreen and physical touch gestures were not separately exercised for this text-only update.
