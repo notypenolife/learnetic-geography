@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+sources/*
+!sources/README.md
