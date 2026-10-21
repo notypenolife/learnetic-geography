@@ -1,31 +1,30 @@
 # Geography Learning Lab
 
-A separate local project for a new interactive geography resource. This starter is independent of Inside the CPU. The topic, student level and curriculum have not been selected yet. The current page is a setup screen, not a completed learning activity.
+An independent local project running the supplied Chinese lesson **海拔与相对高度** (altitude and relative height).
 
-## Run locally
+## Open the lesson
 
-Requires Node.js 24 and npm. In this folder:
+Double-click `public/terrain-altitude.html` to use the self-contained lesson offline in a browser with WebGL2 support. Its graphics library and images are embedded.
 
-```powershell
-npm install
-npm run dev
-```
+For development, run `npm install` then `npm run dev` and open http://127.0.0.1:5174/. Run `npm run build` to produce `dist/`, or `npm run preview` to check the production build at http://127.0.0.1:5188/.
 
-Open http://127.0.0.1:5174/ on this computer. This port is separate from the CPU project's preview. For a production check, run `npm run build`, then `npm run preview` at http://127.0.0.1:5188/.
+## Learning activity
 
-## Foundation
+- Rotate and zoom the terrain; switch between 3D, top and side views.
+- Select observation point A or B and click or drag on the contour map.
+- Compare both elevations and their relative height; toggle the 0 m datum.
+- Reveal the explanation, reset the lesson, or export a PNG.
+- On touch screens, open “地图与操作” for the map and controls.
 
-- React and TypeScript for the interface and learning logic.
-- Vite for local development and production builds.
-- Plain CSS for the initial accessible, responsive page.
-- Git tracks source changes. Dependencies are pinned and recorded in the lockfile.
+The supplied file contains thirteen scenes but deliberately restricts navigation to the altitude lesson. That restriction, the original Chinese content and creator credits are retained. The age group and curriculum have not been specified.
 
-Maps, 3D libraries, quizzes and progress storage can be added when the first activity is specified. There is no backend, account system, paid API or public deployment in this setup.
+## Source and attribution
 
-## Project folders
+`public/terrain-altitude.html` is the complete HTML supplied by the user, preserved unchanged. It credits **小小小白** and embeds the Three.js MIT licence. React hosts this document in a full-window iframe so its existing styles, scripts and mobile adapter can run independently.
 
-- `src/`: application code and styles.
-- `sources/`: local curriculum documents and teaching references. Source files stay out of Git by default.
-- `docs/`: the project brief and design decisions.
+- `src/`: the lightweight application host.
+- `public/`: the supplied lesson, copied into the production build.
+- `sources/`: local teaching references, ignored by Git by default.
+- `docs/`: project notes.
 
-Next decisions: learning topic, student age or course, curriculum reference, and the first interactive task.
+No backend, account system or hosted deployment is configured. This project is separate from Inside the CPU.

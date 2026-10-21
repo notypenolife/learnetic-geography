@@ -1,19 +1,9 @@
 # Geography project brief
 
-## Confirmed
+Build a separate interactive geography resource in the Geography folder using the HTML supplied by the user.
 
-- Create a new interactive geography learning resource.
-- Use `C:\Users\c.yang\Desktop\Geography` as its project folder.
-- Keep this project separate from Inside the CPU.
+The first activity is 海拔与相对高度 (altitude and relative height): linked 3D terrain and contour-map views, A/B observation points, elevation comparison and a revealable explanation.
 
-## To define
+Preserve the original Chinese content, creator attribution, embedded assets, Three.js licence and the supplied restriction to chapter 0. Keep the complete source document intact and host it through the existing Vite/React starter. The source can also be opened directly offline.
 
-- Topic and learning outcomes.
-- Student age, course or syllabus.
-- First interactive activity and feedback.
-- Whether maps, 3D models or AR materially help that activity.
-- Source material and any reuse restrictions.
-
-## Initial setup
-
-React, TypeScript and Vite provide a familiar foundation. Keep future changes modular, responsive and keyboard/touch accessible. Add libraries only when the selected learning activity needs them. Record meaningful improvements in Git.
+Student age and syllabus remain unspecified. This integration does not change the CPU project or publish a hosted site.
