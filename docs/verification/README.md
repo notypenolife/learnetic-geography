@@ -3,7 +3,7 @@
 Verified on 21 October 2026 after the English translation.
 
 - Translated 322 distinct script strings plus static HTML, accessibility labels, help and host metadata. Canvas and PNG export text are included.
-- Replaced Chinese social-media wordmark images with English text, retaining the creator as Xiao Xiao Xiao Bai and the Three.js MIT licence.
+- Replaced Chinese social-media wordmark images with English text, retaining the Three.js MIT licence. The displayed creator credit was subsequently changed to Cici Yang_NZ as requested; the header and About dialog were verified.
 - A scan of the lesson and host, including decoded Unicode escapes, found no remaining Chinese characters.
 - Both inline scripts passed syntax checks. The TypeScript/Vite production build passed.
 - Desktop viewport 1440 × 900: English terrain view, contour map, controls and labels rendered. Moving A changed its elevation from 152.5 m to 388.4 m and the height difference from 589.8 m to 353.9 m. Reset restored the original values.

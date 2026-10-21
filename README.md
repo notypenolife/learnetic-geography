@@ -20,7 +20,7 @@ The supplied source contains thirteen scenes but restricts navigation to the ele
 
 ## Source and attribution
 
-`public/terrain-altitude.html` is adapted from the HTML supplied by the user. Its text has been translated into natural English, including the inactive lesson content. Original creator attribution is retained as **Xiao Xiao Xiao Bai**. Embedded social-media wordmark images have been replaced by English text. The Three.js MIT licence is retained.
+`public/terrain-altitude.html` is adapted from the HTML supplied by the user. Its text has been translated into natural English, including the inactive lesson content. The displayed creator credit is **Cici Yang_NZ**, as requested by the user. The supplied source originally credited Xiao Xiao Xiao Bai. Social-media wordmarks and handles have been removed from the interface. The Three.js MIT licence is retained.
 
 React hosts the lesson in a full-window iframe so its styles, scripts and mobile controls run independently. Terrain geometry and elevation calculations are unchanged.
 
